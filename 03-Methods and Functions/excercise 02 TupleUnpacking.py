@@ -1,21 +1,27 @@
 ####################
 ###This example using TUPLE unpacking. 
-#######################3'''
+####################
 
-employeedata = [("billy",400),("Cassie",300 ) , ("John",500) ]
+employeedata = [("billy",40000),("Cassie",300 ) , ("John",500) , ("Unknown",300) ]
 
 def employeecheck(inputtuple):
-    
     current_max = 0
-    employee_of_month = 0
-    
+    employee_of_month =  ""
     for employee , hours in inputtuple:
-        print(f"{employee} {hours}")
+        #print(f"{employee} {hours}")
         if hours > current_max:
             current_max = hours
             employee_of_month = employee
-        
-        return("employee",hours)
+            print(f"new value will be added{hours}")
+        else:
+            pass
 
+        print(f"currnt emp is {employee} and hours {hours}")
 
-employeecheck(employeedata)
+    return(employee_of_month,current_max)
+
+employeecheckresult = employeecheck(employeedata)
+print(f"The output is : {employeecheckresult}")
+
+### WE CAN DO TUPLE UNPACING IN THIS WAY TOO. BY DIRECTLY SAVING THE RESULT TO VARIABLE.
+empofmonth , hourworked = employeecheck(employeedata)
