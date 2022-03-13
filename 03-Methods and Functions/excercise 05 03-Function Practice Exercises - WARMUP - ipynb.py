@@ -11,6 +11,7 @@ Lesser_of_two_evens(20,20)
 '''
 
 ################# ANIMAL CRACKERS:
+'''
 def animal_crackers(text):
     #print(f"You have inserted \" {text} \"  ")
     #list1 = split(text)
@@ -23,3 +24,15 @@ def animal_crackers(text):
         print ("they are equal")
 
 animal_crackers(f"Hello jow are you ")
+
+'''
+####################################################
+
+def Capitalise(inputstring):
+    
+    str1 = str(inputstring)
+    str2 = str1.split()
+    str2 = str2[0].upper()
+    print(f"Hello{str2}")
+
+Capitalise("macdonald")
