@@ -27,6 +27,8 @@ animal_crackers(f"Hello jow are you ")
 
 '''
 ####################################################
+
+####################################################
 '''
 def Capitalise(inputstring):
     
@@ -38,9 +40,9 @@ def Capitalise(inputstring):
 Capitalise("macdonald")
 '''
 
-################################################
+#########################################################
 ###### Master yoda 
-###### Return a given sentence and return it. 
+###### Return a given sentence and reverse it. 
 #########################################################
 
 def masteryoda(text):
@@ -48,11 +50,12 @@ def masteryoda(text):
     list1 = text.split()
     #print(f"{list1}")
     #return (f"{list1[::-1]}")
-#    print(f"{list1[::-1]}")
+    #print(f"{list1[::-1]}")
     text1 = ""
     text1 = " ".join(list1[::-1])
     print(f"{text1}")
 
 masteryoda("Hello how are you")
+#########################################################
 #########################################################
 
