@@ -8,11 +8,15 @@
 #############################################################
 
 def almost_there(inputval):
+    '''
     print(f"Absolute value is   {abs(inputval)}")
     if abs(inputval) < 10 :
         print(f"You are within 10")
     else:
         pass
+    '''
 
-almost_there(9)
+    return ((abs(100 - inputval) <= 10) or (abs(200 - inputval) <= 10))
+
+almost_there(90)
 
