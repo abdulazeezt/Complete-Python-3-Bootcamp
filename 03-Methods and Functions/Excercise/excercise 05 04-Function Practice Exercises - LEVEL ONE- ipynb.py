@@ -47,12 +47,12 @@ def masteryoda(text):
     #print(f"{text}")
     list1 = text.split()
     #print(f"{list1}")
-    #return (f"{list1[::-1]}")
+    #return (f"{list1[::    -1]}")
 #    print(f"{list1[::-1]}")
     text1 = ""
     text1 = " ".join(list1[::-1])
     print(f"{text1}")
 
-masteryoda("Hello how are you")
+masteryoda("You are good")
 #########################################################
 
