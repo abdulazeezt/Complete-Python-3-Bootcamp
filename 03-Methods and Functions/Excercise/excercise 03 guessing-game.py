@@ -7,6 +7,7 @@ def shuffle_me(inputlist):
     return inputlist
 
 ##################  Player selection function
+#######################################################
 
 def player_selection(mylist):
     guess = ' '
