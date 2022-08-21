@@ -1,7 +1,6 @@
 """
 A very simple script.
 """
-
 def myfunc():
     """
     An extremely simple function.

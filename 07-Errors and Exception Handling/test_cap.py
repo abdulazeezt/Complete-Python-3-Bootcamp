@@ -17,6 +17,7 @@ class TestCap(unittest.TestCase):
         text = "monty python's flying circus"
         result = cap.cap_text(text)
         self.assertEqual(result, "Monty Python's Flying Circus")
+        self.
         
 if __name__ == '__main__':
     unittest.main()
