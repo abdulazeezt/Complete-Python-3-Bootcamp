@@ -1,2 +1,1 @@
-First Line
-Second Line
+Hello, this is a quick test file.
