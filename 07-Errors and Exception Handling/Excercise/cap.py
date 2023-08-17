@@ -6,3 +6,5 @@ def cap_text(text):
     
     # texts = "hello"
     # texts.title() 
+
+

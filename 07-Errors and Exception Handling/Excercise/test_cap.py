@@ -14,7 +14,5 @@ class TextCap(unittest.TestCase):
 if __name__=='__main__':
     unittest.main()
 
-# newtest = TextCap()
-
-# newtest.test_one_word()
+    
 
